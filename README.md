@@ -44,3 +44,14 @@ Steps:
 6. `ngh --dir app`
 
 If all goes well, this should leave you with your own personal risk assessment tool at `https://<your-username>.github.io/binary/`.
+
+
+# Docker
+docker build . -t pei/bra_angular:0.1
+docker run -it -p 4201:4200 pei/bra_angular:0.1 ng serve 
+
+# docker run -it -p 4201:4200 -p 9230:9229 pei/bra_angular:0.1 node --inspect 
+
+
+# Upgrade
+Angular to v12-lts

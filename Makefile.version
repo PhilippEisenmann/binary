@@ -1,0 +1,6 @@
+VERSION := 1.0
+BUILDARG_VERSION := --build-arg VERSION=$(VERSION)
+IMAGENAME := pei/bra_angular
+BUILDARG_PLATFORM := --platform linux/amd64
+
+

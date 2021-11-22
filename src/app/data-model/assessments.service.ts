@@ -175,7 +175,8 @@ export class AssessmentsService {
       if (link.download !== undefined) {
         var url = URL.createObjectURL(blob);
         link.setAttribute('href', url);
-        link.setAttribute('download', filename);
+        link.setAttribute('download', filename);752842
+        
         link.style.visibility = 'hidden';
 
         // Hack to initiate download
